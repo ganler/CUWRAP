@@ -5,7 +5,7 @@
 ```shell
 mkdir build && cd build
 cmake ..
-make -j(nproc) # For Linux
+make -j$(nproc) # For Linux
 make test
 ```
 
